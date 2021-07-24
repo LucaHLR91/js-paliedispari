@@ -19,9 +19,9 @@ var array = parola_utente.split("");
 console.log(array);
 
 // CREO ARRAY REVERSE
-var array_reverse = array.reverse().join("");
+var parola_reverse = array.reverse().join("");
 console.log(array_reverse);
 
-var result = palindrome(parola_utente, array_reverse);
+var result = palindrome(parola_utente, parola_reverse);
 console.log(result);
 
